@@ -1,7 +1,7 @@
-# **Spam SMS Filtering System**
+# **SMS Filtering System**
 
 ## **Introduction:**
-This project is done as part of the Novoic Machine Learning challenge, here the task is to classify the given SMS messages as Spam and Ham(legitimate).
+The main objective of the project is to filter Spam messages using the data set.
 
 ## **Dataset Description:**
 The data comprises 5,574 SMS messages. Each message is labelled as either 'ham' (legitimate) or spam.
@@ -41,9 +41,6 @@ After performing the classification task, the results are as follows
 * **precision and recall of 99.42% and 91.98% respectively.**
 * The confusion matrix is also displayed.
 
-![Image of Sensorplacement](https://github.com/thotamohan/Novoic-ML-challenge-NLP-with-deep-learning-/blob/master/SMS-confusion.png)
-
-
 ## **Unsupervised Clustering:**
 
 Using term frequency and inverse document frequency, text is analyzed in order to find the top key words in the messages.
@@ -66,8 +63,6 @@ The top keywords are as follows:
 
 In addition to the deep learning model, K-means clustering is also performed for the classification of spam and ham messages. After performing the clustering, the top keywords as per tf-idf in both the tasks are visualized.
 
-![Image of Sensorplacement](https://github.com/thotamohan/Novoic-ML-challenge-NLP-with-deep-learning-/blob/master/clustering-results.png)
-
 Here the cluster 0 represents Ham and the cluster 1 represents spam.
 
 From the above figure we could see that spam messages mostly consists of words like **prize, cash, free,claim,award** etc..
@@ -75,10 +70,3 @@ From the above figure we could see that spam messages mostly consists of words l
 Then going further using this important spam keywords we can further group messages based on the keyword
 
 Where as in the case of ham messages, the top words present are **ok, im, home,come** which are used in day-day activities
-
-
-
-
-
-
-
