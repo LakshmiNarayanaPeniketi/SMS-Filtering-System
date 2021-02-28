@@ -10,7 +10,7 @@ Each line in data.txt corresponds to one message. The first word is the data lab
 
 ## **Approach:**
 
-Since this is an open-ended challenge, we are welcomed to use our creativity in analyzing data. The project comprises of following activities.
+Since this is an open-ended challenge, we are welcomed to use our creativity in analyzing data. 
 * Binary Classification.
 * Data exploration and visualization.
 * Unsupervised Clustering.
